@@ -1,4 +1,4 @@
-/* Don't have access to the fonts the tutorial was using. I got 2 of them from google fonts but the other I had to replace*/
+/* Don't have access to the fonts the tutorial was using.*/
 
 h1  {
 	font-size: 2.7em;
@@ -9,7 +9,7 @@ h1  {
 }
 
 h2 {
-	font-family: 'Bitter', serif;
+	font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.2em;
@@ -34,29 +34,37 @@ footer {
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 300;
 	background-image: url(images/bkgdHome.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .asideLeft {
-	width: 25%;
-	margin-left: 15%;
+	width: 35%;
+	margin-left: 5%;
 	margin-right: 2.5%;
 	float: left;
 }
 
 .sectionRight {
-	width: 35%;
+	width: 45%;
 	margin: 20px 0;
 	margin-left: 2.5%;
-	margin-right: 15%;
+	margin-right: 5%;
 	padding: 2.5%;
 	float: right;
 	background-color: #FFFFFF;
+}
+
+.sectionFull {
+	width: 65%;
+	margin: 20px 15%;
+	float: right;
+	background-color: #fff;
+	padding: 2.5%;
 }
 
 header {
@@ -69,7 +77,7 @@ a {
 }
 
 .nav {
-	font-family: 'Bitter', serif;
+	font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	margin-left: 2%;
@@ -104,3 +112,69 @@ a {
 .navContact {
 	background-image: url(images/navContact.png);
 }
+
+@media (min-width: 800px) {
+	nav {
+		background-color: #222325;
+		color: #FFFFFF;
+		text-align: center;
+		margin: 0 15%;
+		margin-top: 40px;
+	}
+
+	footer {
+		background-color: #222325;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: x-small;
+		margin: 15%;
+		padding: 5px 0;
+		clear: both;
+	}
+
+	.asideLeft {
+		width: 25%;
+		margin-left: 15%;
+		margin-right: 2.5%;
+		float: left;
+	}
+
+	.sectionRight {
+		width: 35%;
+		margin: 20px 0;
+		margin-left: 2.5%;
+		margin-right: 15%;
+		padding: 2.5%;
+		float: right;
+		background-color: #FFFFFF;
+	}
+} /* min 800 px */
+
+@media (min-width: 450px) and (max-width: 800px) {
+
+} /* min 450 px :: max 800 px */
+
+@media (max-width: 450px) {
+	.asideLeft {
+		width: 90%;
+		margin: 0 5%;
+		float: left;
+	}
+
+	.sectionRight {
+		width: 85%;
+		margin: 20px 5%;
+		padding: 2.5%;
+		float: right;
+		background-color: #FFFFFF;
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-weight: 900;
+		background-image: url(images/bkgdHome.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+} /* max 450 px */
