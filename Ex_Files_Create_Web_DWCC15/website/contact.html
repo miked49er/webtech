@@ -28,7 +28,23 @@
     </aside>
     <section class="sectionRight">
       <h2>Contact</h2>
-      <p>For the past 15 years I've brought ideas to life for my clients. Visually telling stories. Building brands. Solving problems. Doing my part to make the world a more beautiful place. I would like to do the same for you. So let's talk. Let's create. Let's build a brand that fits your needs.</p>
+
+      <form action="http://www.paulsdesignshop.com/formmail.php" method="post" name="form1" id="form1">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name required id="name" form="form1" size="30">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required form="form1" size="30">
+        <br>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea id="comments" name="comments" required form="form1" cols="30"></textarea>
+        <br>
+        <input type="submit" id="submit" name="submit" form="form1" value="Submit">
+        &nbsp;
+      </form>
     </section>
     <footer>Copyright 2015 by <a href="http://www.paultrani.com">Paul Trani</a>. Made with 100% recycled pixels.</footer>
   </body>
