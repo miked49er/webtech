@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patterns & Gradients</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<style type="text/css">
+.jumbotron {
+	background-color: #F8E593;
+}
+.section1 {
+	background-color: rgba(255,160,53,1.00);
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url(images/yellowstripetile.png);
+}
+.section2 {
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgba(241,231,103,1);
+	/* Old Browsers */background: -moz-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	 /* FF3.6+ */background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+	/* Chrome, Safari4+ */background: -webkit-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	 /* Chrome10+,Safari5.1+ */background: -o-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	 /* Opera 11.10+ */background: -ms-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	 /* IE 10+ */background: radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#fba81d', GradientType=1 );
+	/* IE6-9 fallback on horizontal gradient */
+}
+.section3 {
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #F8E593; /* For browsers that do not support gradients */
+  /* Safari 5.1 to 6.0 */
+  background: -webkit-repeating-linear-gradient(45deg, #F8E593 10%, #FFC0CB 20%, #B0E0E6 30%);
+  /* Opera 11.1 to 12.0 */
+  background: -o-repeating-linear-gradient(45deg, #F8E593 10%, #FFC0CB 20%, #B0E0E6 30%);
+  /* Firefox 3.6 to 15 */
+  background: -moz-repeating-linear-gradient(45deg, #F8E593 10%, #FFC0CB 20%, #B0E0E6 30%);
+  /* Standard syntax */
+  background: repeating-linear-gradient(45deg, #F8E593 10%, #FFC0CB 20%, #B0E0E6 30%);
+}
+.section4 {
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #f1705c;
+	background: -moz-linear-gradient(-45deg, #f1705c 0%, #e73827 10%, #f16f5c 10%, #f1705c 20%, #e73827 20%, #e73827 30%, #f1705c 30%, #f1705c 40%, #e73827 40%, #e73827 50%, #f1705c 50%, #f1705c 60%, #e73827 60%, #e73827 70%, #f1705c 70%, #f1705c 80%, #e73827 80%, #e73827 90%, #f1705c 90%, #f1705c 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #f1705c), color-stop(10%, #e73827), color-stop(10%, #f16f5c), color-stop(20%, #f1705c), color-stop(20%, #e73827), color-stop(30%, #e73827), color-stop(30%, #f1705c), color-stop(40%, #f1705c), color-stop(40%, #e73827), color-stop(50%, #e73827), color-stop(50%, #f1705c), color-stop(60%, #f1705c), color-stop(60%, #e73827), color-stop(70%, #e73827), color-stop(70%, #f1705c), color-stop(80%, #f1705c), color-stop(80%, #e73827), color-stop(90%, #e73827), color-stop(90%, #f1705c), color-stop(100%, #f1705c));
+	background: -webkit-linear-gradient(-45deg, #f1705c 0%, #e73827 10%, #f16f5c 10%, #f1705c 20%, #e73827 20%, #e73827 30%, #f1705c 30%, #f1705c 40%, #e73827 40%, #e73827 50%, #f1705c 50%, #f1705c 60%, #e73827 60%, #e73827 70%, #f1705c 70%, #f1705c 80%, #e73827 80%, #e73827 90%, #f1705c 90%, #f1705c 100%);
+	background: -o-linear-gradient(-45deg, #f1705c 0%, #e73827 10%, #f16f5c 10%, #f1705c 20%, #e73827 20%, #e73827 30%, #f1705c 30%, #f1705c 40%, #e73827 40%, #e73827 50%, #f1705c 50%, #f1705c 60%, #e73827 60%, #e73827 70%, #f1705c 70%, #f1705c 80%, #e73827 80%, #e73827 90%, #f1705c 90%, #f1705c 100%);
+	background: -ms-linear-gradient(-45deg, #f1705c 0%, #e73827 10%, #f16f5c 10%, #f1705c 20%, #e73827 20%, #e73827 30%, #f1705c 30%, #f1705c 40%, #e73827 40%, #e73827 50%, #f1705c 50%, #f1705c 60%, #e73827 60%, #e73827 70%, #f1705c 70%, #f1705c 80%, #e73827 80%, #e73827 90%, #f1705c 90%, #f1705c 100%);
+	background: linear-gradient(135deg, #f1705c 0%, #e73827 10%, #f16f5c 10%, #f1705c 20%, #e73827 20%, #e73827 30%, #f1705c 30%, #f1705c 40%, #e73827 40%, #e73827 50%, #f1705c 50%, #f1705c 60%, #e73827 60%, #e73827 70%, #f1705c 70%, #f1705c 80%, #e73827 80%, #e73827 90%, #f1705c 90%, #f1705c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1705c', endColorstr='#f1705c', GradientType=1 );
+}
+.section5 {
+	background-color: rgba(67,194,209,1.00);
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url(images/mypattern.svg);
+}
+.section6 {
+	background-color: rgba(180,124,204,1.00);
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.section7 {
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #EBE6CE;
+	background-image: radial-gradient(pink 10%, transparent 15%),
+                      radial-gradient(pink 10%, transparent 15%);
+	background-size: 50px 50px;
+	background-position: 0 0, 25px 25px;
+}
+.section8 {
+	margin-top: -40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: -webkit-linear-gradient(135deg, #eddced 25%, transparent 25%);
+	background: -moz-linear-gradient(135deg, #eddced 25%, transparent 25%);
+	background: -o-linear-gradient(135deg, #eddced 25%, transparent 25%);
+	background: linear-gradient(135deg, powderblue 25%, transparent 25%) -50px 0,
+	            linear-gradient(225deg, coral 25%, transparent 25%) -50px 0,
+	            linear-gradient(315deg, bisque 25%, transparent 25%),
+	            linear-gradient(45deg, pink 25%, transparent 25%);
+	background-size: 100px 100px;
+	background-color: #fff;
+}
+
+
+/* set bg color same as the first color defined in the animation function */
+.animated_bg {
+	background: #ef008c; 
+	color: #fff;
+}
+.animated_bg2 {
+	background: #abebfe; 
+	color: #000;
+}
+.animated_bg3 {
+	background: #71a98b; 
+	color: #fff;
+}
+</style>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+<a id="top"></a>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">Patterns &amp; Gradients</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#section1">Tile</a></li>
+        <li><a href="#section2">Radial Gradient</a></li>
+        <li><a href="#section3">Linear Gradient</a></li>
+        <li><a href="#section4">Stripes</a></li>
+        <li><a href="#section5">SVG</a></li>
+        <li><a href="#section6">JavaScript</a></li>
+        <li><a href="#section7">Polkadots</a></li>
+        <li><a href="#section8">Pattern</a></li>
+      </ul>
+     </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- HEADER -->
+<header>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- / HEADER --> 
+
+
+<!-- SECTION 1 -->
+<section><a id="section1"></a>
+  <div class="section1">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 1 --> 
+
+<!-- SECTION 2 -->
+<section><a id="section2"></a>
+  <div class="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 2 --> 
+
+<!-- SECTION 3 -->
+<section><a id="section3"></a>
+  <div class="section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 3 --> 
+
+<!-- SECTION 4 -->
+<section><a id="section4"></a>
+  <div class="section4">
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 4 --> 
+
+<!-- SECTION 5 -->
+<section><a id="section5"></a>
+  <div class="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 5 --> 
+
+<!-- SECTION 6 -->
+<section><a id="section6"></a>
+  <div class="section6 animated_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 6 --> 
+
+<!-- SECTION 7 -->
+<section><a id="section7"></a>
+  <div class="section7">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 7 --> 
+
+<!-- SECTION 8 -->
+<section><a id="section8"></a>
+  <div class="section8">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dicta, cupiditate consequatur necessitatibus quos libero eius ipsum qui sit molestiae.</p>
+          <p>&nbsp;</p>
+          <p class="text-center"><a class="btn btn-primary btn-lg" href="#top" role="button">Learn more</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / SECTION 8 --> 
+
+<!-- FOOTER -->
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © Patterns & Gradients. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- / FOOTER --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+
+<!-- JAVASCRIPT ANIMATED COLOR ROW SCRIPTS -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script> 
+<script src="js/animated_bg.js"></script>
+<script>
+	jQuery(document).ready(function(){
+
+		$('.animated_bg2').animatedBG({
+			colorSet: ['#abebfe', '#aad667', '#57e6ee', '#ff7ebb'],
+			speed: 2000
+		});
+
+		$('.animated_bg3').animatedBG({
+			colorSet: ['#71a98b', '#b15c8e', '#dc6b68', '#6c5a94', '#b14c4e', '#736357'],
+			speed: 6000
+		});
+
+	});
+</script>
+</body>
+</html>

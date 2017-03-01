@@ -1,0 +1,14 @@
+<!--Scalable Vector Graphic-->
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='60' height='30'>
+<defs>
+<rect id='a' width='30' height='15' fill='#ddd' stroke-width='2.5' stroke='#fff'/>
+<g id='b'>
+<use xlink:href='#a'/>
+<use y='15' xlink:href='#a'/>
+<use y='30' xlink:href='#a'/>
+<use y='45' xlink:href='#a'/>
+</g>
+</defs>
+<use xlink:href='#b' transform='translate(0 -30) skewY(30)'/>
+<use xlink:href='#b' transform='translate(30 0) skewY(-10)'/>
+</svg>
